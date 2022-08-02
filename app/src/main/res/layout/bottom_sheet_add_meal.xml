@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="45dp"
+        android:layout_height="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DFDFDF" />
+
+    <ImageView
+        android:id="@+id/close_bot_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/close"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/vod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Ручной ввод"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vod"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/descriptionET"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/my1"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/my1"
+            app:startIconDrawable="@drawable/person">
+
+            <EditText
+                android:id="@+id/descriptionEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Описание"
+                android:inputType="textPersonName"
+                android:maxLength="15"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/kalET"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/my1"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/my1"
+            app:startIconDrawable="@drawable/mail">
+
+            <EditText
+                android:id="@+id/kalEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Калории"
+                android:inputType="number"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/carbET"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/my1"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/my1"
+            app:startIconDrawable="@drawable/mail">
+
+            <EditText
+                android:id="@+id/carbEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Углеводы"
+                android:inputType="number"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/proteinET"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/my1"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/my1"
+            app:startIconDrawable="@drawable/mail">
+
+            <EditText
+                android:id="@+id/proteinEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Белки"
+                android:inputType="number"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fatET"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/my1"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/my1"
+            app:startIconDrawable="@drawable/mail">
+
+            <EditText
+                android:id="@+id/fatEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Жиры"
+                android:inputType="number"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/add_btn"
+            android:background="@drawable/button_add_bot_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="ДОБАВИТЬ"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

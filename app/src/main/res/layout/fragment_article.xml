@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:overScrollMode="never"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:id="@+id/title_nutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Статьи"
+        android:textSize="50dp" />
+
+
+    <ListView
+        android:overScrollMode="never"
+        android:id="@+id/article_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:scrollbars="none"
+        tools:listitem="@layout/item_article" />
+
+
+</FrameLayout>

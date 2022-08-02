@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_above="@id/bot_nav"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bot_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:itemIconTint="@color/bot_nav_color"
+            app:labelVisibilityMode="selected"
+            android:layout_above="@id/botttt"
+            app:menu="@menu/bot_nav" />
+        <View
+            android:id="@+id/botttt"
+            android:layout_width="match_parent"
+            android:background="#F1F1F1"
+            android:layout_alignParentBottom="true"
+            android:layout_height="0.3dp"/>
+    </RelativeLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:id="@+id/coord"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/bot_sheet_id"
+            app:layout_behavior="@string/bottom_sheet_behavior"
+            layout="@layout/bot_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>

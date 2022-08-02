@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">lifestyle</string>
+    <string name="hint_resource">ДД</string>
+    <string name="welcome">создайте учетную запись, чтобы получить персональную программу тренировок и питания</string>
+    <string name="privacy_policy">Продолжая, вы соглашаетесь со следующим: Положения и условия и Политика конфидициальности LifeStyle</string>
+    <string-array name="month">
+        <item>ЯНВ.</item>
+        <item>ФЕВР.</item>
+        <item>МАР.</item>
+        <item>АПР.</item>
+        <item>МАЯ</item>
+        <item>ИЮН.</item>
+        <item>ИЮЛ.</item>
+        <item>АВГ.</item>
+        <item>СЕНТ.</item>
+        <item>ОКТ.</item>
+        <item>НОЯБ.</item>
+        <item>ДЕК.</item>
+    </string-array>
+    <string-array name="active">
+        <item>Нет физической нагрузки</item>
+        <item>Спорт 3 раза в неделю</item>
+        <item>Спорт 5 раз в неделю</item>
+        <item>Интенсивные тренировки 5 раз в неделю</item>
+        <item>Ежедневные занятия спортом</item>
+        <item>Интенсивные занятия спортом дважды в день</item>
+        <item>физический труд одновременно с ежедневными занятиями спортом</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

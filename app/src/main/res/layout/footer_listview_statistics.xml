@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Количество потраченных калорий"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rb_7day"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_left_selector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:text="7 дней"
+            android:textColor="@android:color/white" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rb_30day"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_center_selector"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:text="30 дней" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rb_6month"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_center_selector"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:text="6 мес" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rb_1year"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_right_selector"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:text="1 год" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center_horizontal"
+            android:rotation="-90"
+            android:text="калории"
+            android:textSize="24sp"
+            android:typeface="monospace" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar_chart_statistics"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="30dp"
+            >
+
+        </com.github.mikephil.charting.charts.BarChart>
+    </RelativeLayout>
+
+</LinearLayout>

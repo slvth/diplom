@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/f1"
+            layout="@layout/plan_items"/>
+        <include
+            android:id="@+id/f2"
+            layout="@layout/plan_items"/>
+        <include
+            android:id="@+id/f3"
+            layout="@layout/plan_items"/>
+        <include
+            android:id="@+id/f4"
+            layout="@layout/plan_items"/>
+        <include
+            android:id="@+id/f5"
+            layout="@layout/plan_items"/>
+        <include
+            android:id="@+id/f6"
+            layout="@layout/plan_items"/>
+        <include
+            android:id="@+id/f7"
+            layout="@layout/plan_items"/>
+
+    </LinearLayout>
+
+</ScrollView>

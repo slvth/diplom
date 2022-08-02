@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="Рецепт дня"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_top_smuzi"
+        android:layout_margin="10dp"
+        android:background="@drawable/item_back_break"
+        android:layout_width="match_parent"
+        android:layout_height="310dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_top_smuzi"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top_smuzi"
+            app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+        <LinearLayout
+            android:layout_below="@+id/imageView_top_smuzi"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="Смузи из кефира с бананом и чер..."
+                android:layout_below="@+id/imageView_top_smuzi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="189 ккал   5 мин." />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="Шейк"
+        android:layout_height="wrap_content"/>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/sheik1"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/koktel"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/sheik1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Коктейль из ежевики"
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="325 ккал   5 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/sheik2"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mango"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/sheik2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Манговый ласси"
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="193 ккал   3 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/sheik3"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/banana"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/sheik3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Бананово-ореховый..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="434 ккал   5 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="Быстрое приготовление"
+        android:layout_height="wrap_content"/>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/bpitanie1"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ovsanka"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/bpitanie1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Овсяная каша"
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="217 ккал   5 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/bpitanie2"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/malina"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/bpitanie2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Бодрящий булгур с..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="467 ккал   10 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/bpitanie3"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/klubnika"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/bpitanie3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Французский тост с..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="260 ккал   10 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

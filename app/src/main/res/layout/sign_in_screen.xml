@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+  <ImageView
+      android:id="@+id/back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/arrow_back"
+      app:tint="@color/black" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Авторизация"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailET"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameET"
+        app:boxStrokeColor="@color/my1"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/my1"
+        app:startIconDrawable="@drawable/mail">
+
+      <EditText
+          android:id="@+id/emailEdt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email"
+          android:inputType="textEmailAddress"
+          android:textCursorDrawable="@null" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordET"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        app:boxStrokeColor="@color/my1"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/my1"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/lock">
+
+      <EditText
+          android:id="@+id/passwordEdt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Пароль"
+          android:imeOptions="actionDone"
+          android:inputType="textPassword"
+          android:textCursorDrawable="@null" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <TextView
+          android:id="@+id/reset"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Забыли пароль?" />
+
+      <Button
+          android:id="@+id/create"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          android:backgroundTint="@color/my1"
+          android:text="Войти" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <View
+          android:layout_weight="1"
+          android:layout_margin="20dp"
+          android:layout_width="match_parent"
+          android:background="#DADADA"
+          android:layout_height="1dp"/>
+      <TextView
+          android:text="или"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"/>
+
+      <View
+          android:layout_weight="1"
+          android:layout_margin="20dp"
+          android:layout_width="match_parent"
+          android:background="#DADADA"
+          android:layout_height="1dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/test"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_enter_g"
+        android:clickable="true">
+
+      <ImageView
+          android:id="@+id/google"
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="12.5dp"
+          android:src="@drawable/google" />
+
+      <TextView
+          android:layout_marginLeft="20dp"
+          android:layout_toRightOf="@id/google"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:text="ПРОДОЛЖИТЬ С GOOGLE"
+          android:textColor="@color/black"
+          android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/first"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_enter_f"
+        android:clickable="true">
+      age
+      19
+      (number)
+      email
+      "sjjhhhh@gmail.com"
+      height
+      180
+      name
+      "Joker"
+      password
+      "123123"
+      user_id
+      1
+      weight
+      60
+      <ImageView
+          android:id="@+id/facebook"
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="12.5dp"
+          android:src="@drawable/facebook" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="20dp"
+          android:layout_toRightOf="@id/facebook"
+          android:text="ПРОДОЛЖИТЬ С FACEBOOK"
+          android:textColor="@color/white"
+          android:textStyle="bold" />
+
+    </RelativeLayout>
+  </LinearLayout>
+
+
+  </LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/diary"
+        android:icon="@drawable/person"
+        android:title="дневник" />
+
+    <item
+        android:id="@+id/workout"
+        android:icon="@drawable/workout_icon"
+        android:title="тренировки" />
+    <item
+        android:id="@+id/add"
+        app:actionLayout="@layout/button_menu"
+        android:title="@null" />
+    <item
+        android:id="@+id/nutrition"
+        android:icon="@drawable/food_icon"
+        android:title="питание" />
+    <item
+        android:id="@+id/article"
+        android:icon="@drawable/menu"
+        android:title="статьи" />
+</menu>

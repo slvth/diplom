@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="divider">#F1F1F1</color>
+    <color name="my1">#00a85d</color>
+    <color name="my2">#1877f2</color>
+    <color name="my6">#12DC82</color>
+    <color name="my7">#80000000</color>
+    <color name="my3">#FF5C45</color>
+    <color name="my4">#2ABD2A</color>
+    <color name="my5">#4b0082</color>
+    <color name="botNav">#EEEEEE</color>
+    <color name="transparent">#80000000</color>
+    <color name="page">#EEEEEE</color>
+    <color name="slider">#FF5B00</color>
+    <color name="blue">@android:color/holo_blue_bright</color>
+
+</resources>

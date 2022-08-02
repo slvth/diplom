@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:src="@drawable/l_splash"
+        app:tint="@color/my1"
+        android:layout_height="100dp"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:text="Изменения начинаются здесь"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:text="@string/welcome"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/test"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_enter_g"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12.5dp"
+            android:src="@drawable/google" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="ПРОДОЛЖИТЬ С GOOGLE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/first"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_enter_f"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12.5dp"
+            android:src="@drawable/facebook" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/facebook"
+            android:text="ПРОДОЛЖИТЬ С FACEBOOK"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/second"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_enter_m"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12.5dp"
+            android:src="@drawable/mail"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/mail"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="ПРОДОЛЖИТЬ С  EMAIL"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Уже есть аккаунт?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:textSize="12dp"
+        android:textColor="@color/my1"
+        android:text="ВОЙТИ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

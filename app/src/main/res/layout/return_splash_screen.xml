@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/my1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:id="@+id/return_splash"
+        android:layout_width="wrap_content"
+        android:text="С возвращением"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

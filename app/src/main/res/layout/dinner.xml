@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="Рецепт дня"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/brok"
+        android:layout_margin="10dp"
+        android:background="@drawable/item_back_break"
+        android:layout_width="match_parent"
+        android:layout_height="310dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_top_smuzi"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brokoli"
+            app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+        <LinearLayout
+            android:layout_below="@+id/imageView_top_smuzi"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="Курица с грибами и брокколи"
+                android:layout_below="@+id/imageView_top_smuzi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="292 ккал   25 мин." />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="Салат"
+        android:layout_height="wrap_content"/>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/sheik1"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nisuaz"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/sheik1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Салат нисуаз"
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="560 ккал   14 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/sheik2"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/grech"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/sheik2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Греческий салат с..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="226 ккал   7 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/sheik3"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kaprese"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/sheik3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Салат капрезе"
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="321 ккал   5 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="Суп"
+        android:layout_height="wrap_content"/>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/bpitanie1"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fasole"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/bpitanie1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Томатно фасолевый..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="343 ккал   45 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/bpitanie2"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kabachok"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/bpitanie2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Суп из кускуса с каб..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="169 ккал   25 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/item_back_break"
+                android:layout_width="220dp"
+                android:layout_height="250dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/bpitanie3"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kartoshka"
+                    app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+                <LinearLayout
+                    android:layout_below="@+id/bpitanie3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Картофельный суп с..."
+                        android:layout_below="@+id/imageView_top_smuzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="104 ккал   35 мин." />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

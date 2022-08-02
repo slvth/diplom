@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable-v21/button_add_bot_sheet.xml" value="0.1065" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/add.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/button_add_bot_sheet.xml" value="0.1065" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/button_click.xml" value="0.1065" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/button_enter_f.xml" value="0.1065" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/cart.xml" value="0.249" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/custom_choice_animation_default.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/about_eda_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/about_eda_screen2.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/about_meal_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/acquaintance_screen.xml" value="0.2" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_detail_add_active.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_detail_article.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_exercise.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_history_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_level_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_program_overview.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_splash_screen_next_program.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_statistic.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/activity_workout_prewiew.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/add_meal_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/bot_sheet.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/bot_sheet_layout.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/bottom_sheet_add_meal.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/bottom_sheet_all_meal.xml" value="0.121875" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/bottom_sheet_search.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/breakfast_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/button_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/dinner_page.xml" value="0.121875" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/eighth_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/enter_screen.xml" value="0.2" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fifth_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/first_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/first_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/first_slide.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fourth_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_add_active.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_all_programs.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_article.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.121875" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_bottom_sheet_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_bottom_sheet_exercise.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_diary.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_food_static.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_my_program.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_nutrition.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_plan.xml" value="0.121875" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_workout.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/fragment_workout_static.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/item_history_workout.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/lunch_page.xml" value="0.121875" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/mail_sign_in_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/main_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/ninth_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/profile_screen.xml" value="0.16" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/reset_password_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/return_splash_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/second_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/second_slide.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/seventh_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/sign_in_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/sign_up_accounts_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/sign_up_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/sixth_page.xml" value="0.121875" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/slider_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/splash_sign_up_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/third_page.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/third_slide.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/layout/welcome_screen.xml" value="0.1" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/menu/bot_nav.xml" value="0.2" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2595" />
+        <entry key="..\:/delete/FinalDiplomProject/LifeStyle/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2595" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

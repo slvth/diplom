@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "70757621041",
+    "firebase_url": "https://lifestyleproject-d1fbd-default-rtdb.firebaseio.com",
+    "project_id": "lifestyleproject-d1fbd",
+    "storage_bucket": "lifestyleproject-d1fbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70757621041:android:ba07c5e605ec1ee6d3e410",
+        "android_client_info": {
+          "package_name": "com.example.lifestile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70757621041-j3d3ahgroi9fb3asrqjlsa3j6rue5ojs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoog-fzcX5I28W2Ebb2AvoKtclVtbAwkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70757621041-j3d3ahgroi9fb3asrqjlsa3j6rue5ojs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70757621041:android:c2d275988e047d7fd3e410",
+        "android_client_info": {
+          "package_name": "com.example.lifestyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70757621041-j3d3ahgroi9fb3asrqjlsa3j6rue5ojs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoog-fzcX5I28W2Ebb2AvoKtclVtbAwkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70757621041-j3d3ahgroi9fb3asrqjlsa3j6rue5ojs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70757621041:android:0c94f718dab2f663d3e410",
+        "android_client_info": {
+          "package_name": "com.lifestyle.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70757621041-j3d3ahgroi9fb3asrqjlsa3j6rue5ojs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoog-fzcX5I28W2Ebb2AvoKtclVtbAwkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70757621041-j3d3ahgroi9fb3asrqjlsa3j6rue5ojs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
